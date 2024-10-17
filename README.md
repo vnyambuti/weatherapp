@@ -1,16 +1,51 @@
-# weather
+# Weather App - Flutter
 
-A new Flutter project.
+A simple weather app built with Flutter that uses the OpenWeather API to display current weather conditions for a given location.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Dependencies](#dependencies)
+- [Troubleshooting](#troubleshooting)
+- [Contributors](#contributors)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Introduction
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This app allows users to search for weather conditions in any city worldwide. It displays essential weather data like temperature, humidity, wind speed, and a description of the current weather. The app is powered by the OpenWeather API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+- Fetches real-time weather data based on the city entered by the user.
+- Displays key weather information including:
+  - Temperature
+  - Humidity
+  - Wind speed
+  - Weather description
+- Allows users to search for weather in any city globally.
+
+## Prerequisites
+
+Before running the app, ensure you have the following installed:
+
+- **Flutter SDK**: [Get Flutter](https://flutter.dev/docs/get-started/install)
+- **Dart SDK**: Included with Flutter.
+- **IDE**: Any of the following:
+  - [Android Studio](https://developer.android.com/studio)
+  - [Xcode](https://developer.apple.com/xcode/) (for macOS)
+  - [Visual Studio Code](https://code.visualstudio.com/) (with Flutter extension)
+
+Additionally, you will need an API key from the OpenWeather API.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/weather_app_flutter.git
+   cd weather_app_flutter
+   ```
